@@ -1,0 +1,4 @@
+name: VarietyStuff
+version: '${version}'
+main: lol.koblizek.varietystuff.VarietyStuff
+api-version: '1.20'
