@@ -2,3 +2,13 @@ name: VarietyStuff
 version: '${version}'
 main: lol.koblizek.varietystuff.VarietyStuff
 api-version: '1.20'
+author: KoblizekXD
+commands:
+  ruleset:
+    description: Shows the ruleset
+    usage: /ruleset <rule> [data]
+    permission: varietystuff.ruleset
+permissions:
+  varietystuff.ruleset:
+    description: Allows the player to view/set the ruleset
+    default: op

@@ -1,8 +1,11 @@
 package lol.koblizek.varietystuff;
 
 import io.papermc.paper.event.player.PlayerChangeBeaconEffectEvent;
+import net.minecraft.data.advancements.packs.VanillaAdventureAdvancements;
+import net.minecraft.server.PlayerAdvancements;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
+import org.bukkit.event.player.PlayerAdvancementDoneEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.Recipe;
 import org.bukkit.inventory.ShapedRecipe;
